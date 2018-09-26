@@ -8,7 +8,7 @@ import setuptools
 
 setuptools.setup(
     name="django-scientific",
-    version="0.0.1",
+    version="0.0.3",
     author="claydodo and his little friends (xiao huo ban)",
     author_email="claydodo@foxmail.com",
     description="Scientific extension for Django, e.g. Numpy/Pandas fields, etc.",
@@ -20,5 +20,8 @@ setuptools.setup(
         "Programming Language :: Python :: 2.7 ",
         "Programming Language :: Python :: 3 ",
         "Operating System :: OS Independent",
-    )
+    ),
+    install_requires=[
+        'knob'
+    ]
 )
